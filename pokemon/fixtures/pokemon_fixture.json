@@ -1,0 +1,62 @@
+[
+  {
+    "fields": {
+      "base_experience": 112,
+      "height": 0.4,
+      "is_default": true,
+      "name": "Pikachu",
+      "order": 25,
+      "weight": 6.0
+    },
+    "model": "pokemon.pokemon",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "base_experience": 62,
+      "height": 0.6,
+      "is_default": false,
+      "name": "Charmander",
+      "order": 4,
+      "weight": 8.5
+    },
+    "model": "pokemon.pokemon",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "base_experience": 64,
+      "height": 0.7,
+      "is_default": false,
+      "name": "Bulbasaur",
+      "order": 1,
+      "weight": 6.9
+    },
+    "model": "pokemon.pokemon",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "base_experience": 63,
+      "height": 0.5,
+      "is_default": false,
+      "name": "Squirtle",
+      "order": 7,
+      "weight": 9.0
+    },
+    "model": "pokemon.pokemon",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "base_experience": 65,
+      "height": 0.3,
+      "is_default": false,
+      "name": "Eevee",
+      "order": 133,
+      "weight": 6.5
+    },
+    "model": "pokemon.pokemon",
+    "pk": 5
+  }
+]
