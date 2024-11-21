@@ -8,3 +8,9 @@ class Pokemon(models.Model):
     weight = models.FloatField(default=0.0)
     is_default = models.BooleanField(default=False)
     order = models.IntegerField(null=True, blank=True)
+
+
+class Color(models.Model):
+    name = models.CharField(max_length=80)
+    language = models.CharField(max_length=80)
+    color = models.CharField(max_length=80, blank=True, null=True)
