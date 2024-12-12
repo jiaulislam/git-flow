@@ -11,3 +11,8 @@ class Pokemon(models.Model):
     species = models.CharField(max_length=80, null=True, blank=True)
     sprites = models.JSONField(null=True, blank=True)
     waka_waka = models.CharField(max_length=255, default="WAKA_WAKA")
+
+
+class PokemonType(models.Model):
+    name = models.CharField(max_length=80)
+    pokemon = models.ManyToManyField(Pokemon, related_name="types")

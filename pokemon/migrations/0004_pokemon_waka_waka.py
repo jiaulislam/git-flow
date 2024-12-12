@@ -4,9 +4,7 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-    dependencies = [
-        ("pokemon", "0002_pokemon_species_pokemon_sprites"),
-    ]
+    dependencies = [("pokemon", "0003_pokemontype")]
 
     operations = [
         migrations.AddField(
