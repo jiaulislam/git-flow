@@ -10,3 +10,4 @@ class Pokemon(models.Model):
     order = models.IntegerField(null=True, blank=True)
     species = models.CharField(max_length=80, null=True, blank=True)
     sprites = models.JSONField(null=True, blank=True)
+    waka_waka = models.CharField(max_length=255, default="WAKA_WAKA")
