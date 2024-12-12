@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "pokemon",
+    "django_linear_migrations",
 ]
 
 MIDDLEWARE = [
