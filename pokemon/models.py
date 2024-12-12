@@ -15,3 +15,4 @@ class Pokemon(models.Model):
 class PokemonType(models.Model):
     name = models.CharField(max_length=80)
     pokemon = models.ManyToManyField(Pokemon, related_name="types")
+    new_field = models.CharField(max_length=80, null=True, blank=True)
