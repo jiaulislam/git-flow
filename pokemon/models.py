@@ -10,3 +10,8 @@ class Pokemon(models.Model):
     order = models.IntegerField(null=True, blank=True)
     species = models.CharField(max_length=80, null=True, blank=True)
     sprites = models.JSONField(null=True, blank=True)
+
+
+class PokemonType(models.Model):
+    name = models.CharField(max_length=80)
+    pokemon = models.ManyToManyField(Pokemon, related_name="types")
