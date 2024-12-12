@@ -8,3 +8,6 @@ class Pokemon(models.Model):
     weight = models.FloatField(default=0.0)
     is_default = models.BooleanField(default=False)
     order = models.IntegerField(null=True, blank=True)
+    test_field = models.CharField(
+        verbose_name="Test Field", null=True, blank=True, max_length=255
+    )
