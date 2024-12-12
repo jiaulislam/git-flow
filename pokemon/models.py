@@ -8,3 +8,5 @@ class Pokemon(models.Model):
     weight = models.FloatField(default=0.0)
     is_default = models.BooleanField(default=False)
     order = models.IntegerField(null=True, blank=True)
+    species = models.CharField(max_length=80, null=True, blank=True)
+    sprites = models.JSONField(null=True, blank=True)
